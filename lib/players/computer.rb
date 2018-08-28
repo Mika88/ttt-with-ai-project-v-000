@@ -11,8 +11,8 @@ module Players
           elsif input == nil
              input = ["5", "1", "3", "7", "9", "2", "4", "6", "8"].find{|i| !board.taken?(i + 1)}.to_s
           end
-       input
-     end
-   end
- end
+        end
+      input
+    end
+  end
 end
