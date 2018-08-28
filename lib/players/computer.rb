@@ -15,4 +15,4 @@ module Players
        input
      end
    end
- end
+
